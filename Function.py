@@ -45,3 +45,5 @@ def draw_3Dsphere(ax, color='b', radius=1, alpha=0.5):
     y = radius*np.outer(np.sin(u), np.sin(v))
     z = radius*np.outer(np.ones(np.size(u)), np.cos(v))
     ax.plot_surface(x, y, z, color=color, alpha=alpha)
+def test():
+    pass
